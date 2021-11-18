@@ -1,0 +1,289 @@
+html,
+body,
+img,
+ul,
+h2,
+p,
+h1,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 65%;
+  margin: 0 auto;
+  height: inherit;
+}
+.menu {
+  overflow: hidden;
+  background-color: rgb(218, 55, 55);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  min-height: 60px;
+  box-shadow: 0 5px 20px rgb(190, 48, 48);
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.logo h2 {
+  position: relative;
+  top: -26px;
+  left: 30px;
+  font-size: 25px;
+  color: seashell;
+}
+
+.logo p {
+  width: 200px;
+  color: seashell;
+  font-size: 13px;
+  position: absolute;
+  top: 42px;
+  text-align: left;
+}
+
+.logo-pic {
+  width: 25px;
+  height: auto;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu li,
+a {
+  text-decoration: none;
+  display: inline;
+  overflow: hidden;
+  color: seashell;
+  float: right;
+  flex-wrap: wrap;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
+.menu a:hover {
+  border-radius: 5px;
+  text-decoration: none;
+  color: seashell;
+  background: #000000;
+}
+
+.menu ul {
+  padding: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  float: right;
+  flex-wrap: wrap;
+}
+
+.tittle_1 {
+  background-color: rgb(236, 58, 58);
+  min-height: 150px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.tittle_1 h1 {
+  font-size: 60px;
+  color: seashell;
+  margin: 0px;
+  padding: 20px 20px 0px 20px;
+}
+
+.tittle_1 p {
+  font-size: 20px;
+  margin: 0px;
+  color: seashell;
+}
+
+.info {
+  min-height: 330px;
+  background-color: rgba(19, 18, 18, 0.932);
+  display: flex;
+}
+
+.tittle_2 h1 {
+  text-align: center;
+  color: seashell;
+  font-size: 40px;
+  padding: 15px 0px 0px;
+}
+.tittle_2 p {
+  text-align: center;
+  color: rgb(177, 3, 3);
+  padding: 0px 0px 25px 0px;
+}
+
+.content {
+  color: seashell;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content img {
+  height: auto;
+  width: 25%;
+}
+
+.smart-and-creative-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content p {
+  width: 50%;
+  text-align: center;
+  color: rgb(177, 3, 3);
+}
+
+.section {
+  background-color: rgb(30, 180, 30);
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+}
+
+.tittle_3 h4 {
+  text-align: center;
+  color: seashell;
+  font-size: 40px;
+  margin: 0;
+  padding: 30px 0px 0px 0px;
+}
+
+.tittle_3 p {
+  font-size: 20px;
+  margin: 0px;
+  color: seashell;
+  text-align: center;
+}
+
+.tittle_3 p {
+  color: rgba(19, 18, 18, 0.932);
+  padding-bottom: 15px;
+}
+
+.talented-and-Experts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.userpic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  width: 260px;
+}
+
+.userpic .avatar {
+  height: auto;
+  width: 50%;
+  margin: 20px 20px 10px 20px;
+  border-radius: 60%;
+  border: 7px solid rgb(30, 180, 30);
+}
+
+.userpic h5 {
+  color: rgb(30, 180, 30);
+  font-size: 23px;
+}
+
+.userpic p {
+  color: rgb(177, 3, 3);
+  padding: 5px;
+}
+
+.follow {
+  background-color: rgb(30, 180, 30);
+  display: flex;
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 45px;
+  align-items: center;
+}
+
+.follow img {
+  height: auto;
+  width: 15%;
+  padding-left: 10px;
+  float: left;
+}
+
+.follow .twitter-follow {
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  padding-left: 35px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: rgba(19, 18, 18, 0.932);
+  min-height: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright img {
+  position: relative;
+  float: left;
+  padding: 7px 0px 0px 5px;
+}
+
+.copyright p {
+  color: white;
+  float: left;
+  padding: 5px;
+}
+
+.copyright .red-text {
+  color: rgb(177, 3, 3);
+  overflow: hidden;
+  left: 100px;
+  padding: 5px;
+}
+
+.copyright .text2 {
+  float: left;
+  overflow: hidden;
+  color: white;
+  padding: 5px;
+}
+
+.social img {
+  width: 2%;
+  height: auto;
+  float: right;
+  padding: 5px;
+}
+
+.menu2 {
+  width: 10px;
+  min-height: 400px;
+background-color: rgb(241, 57, 33);
+  position: relative;
+top: -1430px;
+left: -1000px;
+}
