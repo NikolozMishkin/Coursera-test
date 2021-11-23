@@ -1,0 +1,133 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Three Boxes */
+
+.content-box1 {
+  border: 3px solid black;
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  margin: 25px;
+  position: relative;
+  padding-top: 40px;
+  background-color: grey;
+}
+
+.content-box2 {
+  border: 3px solid black;
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  margin: 25px;
+  position: relative;
+  padding-top: 40px;
+  background-color: grey;
+}
+
+.content-box3 {
+  border: 3px solid black;
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  margin: 25px;
+  position: relative;
+  padding-top: 40px;
+  background-color: grey;
+}
+
+/* Box Titles */
+
+.box-title1 {
+  position: absolute;
+  border: 3px solid black;
+  width: 35%;
+  top: -3px;
+  right: -3px;
+  background-color: rgb(218, 154, 165);
+  font-size: 21px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.box-title2 {
+  position: absolute;
+  border: 3px solid black;
+  width: 35%;
+  top: -3px;
+  right: -3px;
+  background-color: rgb(201, 89, 89);
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.box-title3 {
+  position: absolute;
+  border: 3px solid black;
+  width: 35%;
+  top: -3px;
+  right: -3px;
+  background-color: rgb(226, 180, 53);
+  font-size: 21px;
+  text-align: center;
+  font-family: cursive;
+}
+
+/* Text size and font family */
+
+.content-box1 p1,
+p2,
+p3 {
+  font-size: 17px;
+  font-family: cursive;
+}
+
+/* Large devices */
+
+@media (min-width: 992px) {
+    .content-box1 , .content-box2 , .content-box3{
+        margin: 15px;
+    }
+}
+
+/* Medium devices */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-box1,
+  .content-box2 {
+    width: 45%;
+    margin: 10px;
+
+  }
+
+  .content-box3 {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+/* Small devices */
+
+@media (max-width: 767px) {
+    .content-box1 , .content-box2 , .content-box3{
+        width: 70%;
+        margin: 15px;
+    }
+}
