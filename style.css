@@ -102,9 +102,11 @@ p3 {
 /* Large devices */
 
 @media (min-width: 992px) {
-    .content-box1 , .content-box2 , .content-box3{
-        margin: 15px;
-    }
+  .content-box1,
+  .content-box2,
+  .content-box3 {
+    margin: 15px;
+  }
 }
 
 /* Medium devices */
@@ -112,9 +114,9 @@ p3 {
 @media (min-width: 768px) and (max-width: 991px) {
   .content-box1,
   .content-box2 {
-    width: 45%;
+    width: calc(50% - 20px);
     margin: 10px;
-
+    box-sizing: border-box;
   }
 
   .content-box3 {
@@ -126,8 +128,10 @@ p3 {
 /* Small devices */
 
 @media (max-width: 767px) {
-    .content-box1 , .content-box2 , .content-box3{
-        width: 70%;
-        margin: 15px;
-    }
+  .content-box1,
+  .content-box2,
+  .content-box3 {
+    width: 70%;
+    margin: 15px;
+  }
 }
